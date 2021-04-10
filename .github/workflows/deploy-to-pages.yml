@@ -22,6 +22,6 @@ jobs:
       - run: yarn deploy
         name: Deploy to gh-pages branch
         env:
-          GIT_PASS: ${{ DEPLOYMENT_TOKEN }}
+          GIT_PASS: ${{ secrets.DEPLOYMENT_TOKEN }}
           GIT_USER: IchiiDev
           USE_SSH: true
