@@ -2,13 +2,13 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://ichiidev.github.io/shortio',
+  baseUrl: '/shortio/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ichiidev', // Usually your GitHub org/user name.
+  projectName: 'short.io-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
