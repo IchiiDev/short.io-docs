@@ -19,6 +19,11 @@ jobs:
       - run: yarn install
         name: Install dependencies
       
+      - run: |
+          git config --global user.email "45918948+IchiiDev@users.noreply.github.com"
+          git config --global user.name "IchiiDev"
+        name: Setup Git Credentials
+      
       - run: yarn deploy
         name: Deploy to gh-pages branch
         env:
