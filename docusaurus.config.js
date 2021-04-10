@@ -3,7 +3,7 @@ module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://ichiidev.github.io/shortio',
-  baseUrl: '/shortio/',
+  baseUrl: '/short.io-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
