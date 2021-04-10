@@ -24,4 +24,4 @@ jobs:
         env:
           GIT_PASS: ${{ secrets.DEPLOYMENT_TOKEN }}
           GIT_USER: IchiiDev
-          USE_SSH: true
+          USE_SSH: false
