@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://ichiidev.github.io/shortio',
+  title: 'Short.io JS',
+  tagline: 'NodeJS wrapper for the <a href="https://short.io" target="_blank">short.io</a> API',
+  url: 'https://shortio.ichiidev.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -11,10 +11,10 @@ module.exports = {
   projectName: 'short.io-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Short.io JS',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Short.io JS logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -25,8 +25,8 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/IchiiDev/short.io',
+          label: 'GitHub Repo',
           position: 'right',
         },
       ],
@@ -44,38 +44,28 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
+          title: 'Information & Links',
           items: [
             {
               label: 'Blog',
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'GitHub Repo',
+              href: 'https://github.com/IchiiDev/short.io',
             },
+            {
+              label: 'Documentation Repository',
+              href: "https://github.com/IchiiDev/short.io-docs/"
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} IchiiDev built with Docusaurus.<br/>The package short.io is not endorsed nor maintained by the short.io company`,
     },
+    colorMode: {
+      defaultMode: "dark"
+    }
   },
   presets: [
     [
