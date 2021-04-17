@@ -61,7 +61,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IchiiDev built with Docusaurus.<br/>The package short.io is not endorsed nor maintained by the short.io company`,
+      copyright: `Copyright © ${new Date().getFullYear()} IchiiDev built with Docusaurus.<br/>The short.io package is not endorsed nor maintained by the <a href="https://short.io" target="_blank">short.io</a> company`,
     },
     colorMode: {
       defaultMode: "dark"

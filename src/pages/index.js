@@ -8,32 +8,30 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to implement',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The Short.io package may be implemented easely in any working codebase. 
+        No need to transform all your code.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on your code',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The power of short.io makes it easy to interact with your URL shortner service, instead of making dozens of lines of code
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Low in size',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The package uses only one dependency to work and goes to the essential to improve it's weight
       </>
     ),
   },
