@@ -57,6 +57,10 @@ module.exports = {
             {
               label: 'Documentation Repository',
               href: "https://github.com/IchiiDev/short.io-docs/"
+            },
+            {
+              label: 'terms',
+              href: 'terms'
             }
           ],
         },
