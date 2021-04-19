@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Short.io JS',
   tagline: 'NodeJS wrapper for the <a href="https://short.io" target="_blank">short.io</a> API',
-  url: 'https://shortio.ichiidev.xyz',
+  url: 'https://shortio.js.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -79,13 +79,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/IchiiDev/short.io-docs/tree/master/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/IchiiDev/short.io-docs/tree/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
