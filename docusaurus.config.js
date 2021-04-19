@@ -59,7 +59,7 @@ module.exports = {
               href: "https://github.com/IchiiDev/short.io-docs/"
             },
             {
-              label: 'terms',
+              label: 'Terms',
               href: 'terms'
             }
           ],
