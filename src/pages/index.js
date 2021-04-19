@@ -6,11 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-const getTheme = () => {
-  let theme = document.querySelector("html");
-  return theme.getAttribute("data-theme");
-}
-
 const features = [
   {
     title: 'Easy to implement',
@@ -44,12 +39,11 @@ const features = [
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
-  let theme = getTheme();
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center feature--images">
-          <img className={styles.featureImage} src={`img/${theme}/${imgUrl}`} alt={title} />
+          <img className={styles.featureImage} src={`img/${imgUrl}`} alt={title} />
         </div>
       )}
       <h3>{title}</h3>
