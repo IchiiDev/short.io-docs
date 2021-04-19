@@ -31,3 +31,8 @@
 .hero__subtitle a:hover {
   text-decoration: underline dotted #055338;
 }
+
+.footer-icon {
+  width: 16px;
+  height: 16px;
+}
