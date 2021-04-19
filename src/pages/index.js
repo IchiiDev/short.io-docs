@@ -6,10 +6,15 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+const getTheme = () => {
+  let theme = document.querySelector("html");
+  return theme.getAttribute("data-theme");
+}
+
 const features = [
   {
     title: 'Easy to implement',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'project-diagram-solid.svg',
     description: (
       <>
         The Short.io package may be implemented easely in any working codebase. 
@@ -19,7 +24,7 @@ const features = [
   },
   {
     title: 'Focus on your code',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: `user-clock-solid.svg`,
     description: (
       <>
         The power of short.io makes it easy to interact with your URL shortner service, instead of making dozens of lines of code
@@ -28,7 +33,7 @@ const features = [
   },
   {
     title: 'Low in size',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'cube-solid.svg',
     description: (
       <>
         The package uses only one dependency to work and goes to the essential to improve it's weight
@@ -39,11 +44,12 @@ const features = [
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
+  let theme = getTheme();
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+        <div className="text--center feature--images">
+          <img className={styles.featureImage} src={`img/${theme}/${imgUrl}`} alt={title} />
         </div>
       )}
       <h3>{title}</h3>
