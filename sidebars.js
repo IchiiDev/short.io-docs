@@ -1,15 +1,11 @@
 module.exports = {
   docs: [
+    'introduction',
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: '1.3.1',
       items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
+        '3.1/introduction',
       ],
     },
   ],
